@@ -26,5 +26,5 @@ jobs:
           package: ./package.json
           registry: https://npm.pkg.github.com
           token: ${{ secrets.GITHUB_TOKEN }}
-          access: restricted
+          access: public
           check-version: true

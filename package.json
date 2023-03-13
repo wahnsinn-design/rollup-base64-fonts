@@ -1,8 +1,9 @@
 {
-  "name": "@wahnsinn-design/rollup-base64-font",
+  "name": "@wahnsinn-design/rollup-base64-fonts",
   "version": "1.0.2",
   "description": "Fork of Guido Zuidhof's rollup-plugin-base64 adjusted to creating font strings asa  base64 (including data prefix)",
   "main": "index.js",
+  "private": "false",
   "files": [
     "index.js"
   ],
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wahnsinn-design/rollup-plugin-base64.git"
+    "url": "git+https://github.com/wahnsinn-design/rollup-base64-fonts.git"
   },
   "keywords": [
     "rollup-plugin",
@@ -29,7 +30,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wahnsinn-design/rollup-plugin-base64/issues"
+    "url": "https://github.com/wahnsinn-design/rollup-base64-fonts/issues"
   },
-  "homepage": "https://github.com/wahnsinn-design/rollup-plugin-base64"
+  "homepage": "https://github.com/wahnsinn-design/rollup-base64-fonts"
 }
