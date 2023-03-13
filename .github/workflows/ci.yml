@@ -1,30 +1,29 @@
-name: ci-workflow
+# name: ci-workflow
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  npm-publish:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+# jobs:
+#   npm-publish:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
 
-      - name: Install Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
+#       - name: Install Node
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 16
 
-      - name: Install Deps
-        run: npm ci
+#       - name: Install Deps
+#         run: npm ci
 
-      - name: Use publish action
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          package: ./package.json
-          registry: https://npm.pkg.github.com
-          token: ${{ secrets.GITHUB_TOKEN }}
-          access: public
-          check-version: true
+#       - name: Use publish action
+#         uses: JS-DevTools/npm-publish@v1
+#         with:
+#           package: ./package.json
+#           registry: https://npm.pkg.github.com
+#           token: ${{ secrets.GITHUB_TOKEN }}
+#           check-version: true
