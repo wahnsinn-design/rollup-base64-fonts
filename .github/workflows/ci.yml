@@ -23,7 +23,7 @@ jobs:
       - name: Use publish action
         uses: JS-DevTools/npm-publish@v1
         with:
-          package: ./packages/library/package.json
+          package: ./package.json
           registry: https://npm.pkg.github.com
           token: ${{ secrets.GITHUB_TOKEN }}
           access: restricted
