@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-base64",
-  "version": "1.0.1",
-  "description": "Converts files to base64",
+  "version": "1.0.2",
+  "description": "Fork of Guido Zuidhof's rollup-plugin-base64 adjusted to creating font strings asa  base64 (including data prefix)",
   "main": "index.js",
   "files": [
     "index.js"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gzuidhof/rollup-plugin-base64.git"
+    "url": "git+https://github.com/wahnsinn-design/rollup-plugin-base64.git"
   },
   "keywords": [
     "rollup-plugin",
@@ -27,10 +27,9 @@
     "wasm",
     "webassembly"
   ],
-  "author": "Guido Zuidhof <me@guido.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gzuidhof/rollup-plugin-base64/issues"
+    "url": "https://github.com/wahnsinn-design/rollup-plugin-base64/issues"
   },
-  "homepage": "https://github.com/gzuidhof/rollup-plugin-base64"
+  "homepage": "https://github.com/wahnsinn-design/rollup-plugin-base64"
 }
