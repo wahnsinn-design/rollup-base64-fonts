@@ -1,6 +1,6 @@
 {
   "name": "@wahnsinn-design/rollup-base64-fonts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fork of Guido Zuidhof's rollup-plugin-base64 adjusted to creating font strings asa  base64 (including data prefix)",
   "main": "index.js",
   "files": [
